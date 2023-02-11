@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGridItem /> debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Smeagol"
+      src="https://elmundo.es/"
+    />
+    <p>
+      Smeagol
+    </p>
+  </div>
+</div>
+`;

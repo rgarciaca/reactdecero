@@ -8,8 +8,6 @@
       id: img.id,
       title: img.title,
       url: img.images.fixed_width.url,
-      width: img.images.fixed_width.width
-
     }));
 
     return gifs;
