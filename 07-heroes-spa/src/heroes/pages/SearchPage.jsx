@@ -38,7 +38,7 @@ export const SearchPage = (e) => {
         <div className="col-5">
           <h4>Searching...</h4>
           <hr/>
-          <form onSubmit={ onSearchSubmit } >
+          <form aria-label="form" onSubmit={ onSearchSubmit } >
             <input type="text" placeholder="Search a hero" className="form-control" name="searchText" autoComplete="off" value={ searchText } onChange={ onInputChange }/>
             <button type="submit" className="btn btn-outline-primary mt-1" >Search</button>
           </form>
@@ -53,7 +53,7 @@ export const SearchPage = (e) => {
             showSearchAlert && <div className="alert alert-primary animate__animated animate__bounce">Search a hero</div>
           }
           {
-            showErrorAlert && <div className="alert alert-danger animate__animated animate__bounce">No hero with <b>{ q }</b></div>
+            showErrorAlert && <div aria-label="alert-danger" className="alert alert-danger animate__animated animate__bounce">No hero with <b>{ q }</b></div>
           }
 
           {
